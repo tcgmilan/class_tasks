@@ -37,7 +37,6 @@ def task3():
     print(min_d[0].temperature)
     print(f"A legalacsonyabb hőmérséklet: {min_d[0].location} {min_d[0].hour}:{min_d[0].minute} {min_d[0].temperature} fok.\nA legmagasabb hőmérséklet: {max_d[0].location} {max_d[0].hour}:{max_d[0].minute} {max_d[0].temperature} fok.")
 
-
 def task4():
     print("4.feladat")
     x = []
@@ -83,10 +82,6 @@ def task5():
         else:
             name += " NA;"
             print(f"{name} Hőmérséklet-ingadozás {round(max(alltemps) - min(alltemps))}")
-
-
-
-
 
 def task6():
     locs = [x.location for x in data]
